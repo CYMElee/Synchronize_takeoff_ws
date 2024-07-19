@@ -1,0 +1,2 @@
+keyboard_control
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/install -G Unix Makefiles

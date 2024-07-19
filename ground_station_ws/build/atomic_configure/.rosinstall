@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/devel/setup.sh
