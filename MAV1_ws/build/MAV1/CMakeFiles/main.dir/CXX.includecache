@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1/node/main.cpp
+/home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1/node/main.cpp
 ros/ros.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1/node/ros/ros.h
+/home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1/node/ros/ros.h
 string
 -
 std_msgs/Int16.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1/node/std_msgs/Int16.h
+/home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1/node/std_msgs/Int16.h
 geometry_msgs/PoseStamped.h
 -
 mavros_msgs/CommandBool.h

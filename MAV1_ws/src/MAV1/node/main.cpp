@@ -50,7 +50,7 @@ int main(int argv,char** argc)
     ros::ServiceClient set_mode_client = nh.serviceClient<mavros_msgs::SetMode>
         ("mavros/set_mode");
  
-    ros::Subscriber Takeoff_Signal = nh.subscribe("/ground_station/set_mode", 10, Takeoff_Signal_cb);
+    ros::Subscriber Takeoff_Signal = nh.subscribe<std_msgs::Int16>("/ground_station/set_mode", 10, Takeoff_Signal_cb);
     ros::Rate rate(100.0);
 
     while(ros::ok() && !current_state.connected){
@@ -104,6 +104,9 @@ int main(int argv,char** argc)
         if(!current_state.armed){
             arming_client.call(arm_cmd);
         }
+	ros::spinOnce();
+	rate.sleep();
+
 
     }
     rate = ros::Rate(100);
@@ -118,7 +121,7 @@ int main(int argv,char** argc)
 
 
     while(ros::ok()){
-        if(Change_Mode_Trigger.data !=MAV_mod::TAKEOFF){
+        if(Change_Mode_Trigger.data ==MAV_mod::LAND){
             offb_set_mode.request.custom_mode = "LAND";
             set_mode_client.call(offb_set_mode);
             arm_cmd.request.value = false;

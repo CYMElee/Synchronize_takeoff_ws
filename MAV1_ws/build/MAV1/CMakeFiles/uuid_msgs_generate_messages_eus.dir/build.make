@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/build
 
 # Utility rule file for uuid_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ MAV1/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build: uuid_msgs_generate_me
 .PHONY : MAV1/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build
 
 MAV1/CMakeFiles/uuid_msgs_generate_messages_eus.dir/clean:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1 && $(CMAKE_COMMAND) -P CMakeFiles/uuid_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1 && $(CMAKE_COMMAND) -P CMakeFiles/uuid_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : MAV1/CMakeFiles/uuid_msgs_generate_messages_eus.dir/clean
 
 MAV1/CMakeFiles/uuid_msgs_generate_messages_eus.dir/depend:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/src /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1 /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1 /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1/CMakeFiles/uuid_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/src /home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1 /home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/build /home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1 /home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1/CMakeFiles/uuid_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : MAV1/CMakeFiles/uuid_msgs_generate_messages_eus.dir/depend
 

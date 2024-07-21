@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/devel/lib/mav1/main"
-  "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/devel/lib/mav1/main.pdb"
+  "/home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/devel/lib/mav1/main"
+  "/home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/devel/lib/mav1/main.pdb"
   "CMakeFiles/main.dir/node/main.cpp.o"
 )
 

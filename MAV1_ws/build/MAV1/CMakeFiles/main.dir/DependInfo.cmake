@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1/node/main.cpp" "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1/CMakeFiles/main.dir/node/main.cpp.o"
+  "/home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1/node/main.cpp" "/home/ubuntu/yajie_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1/CMakeFiles/main.dir/node/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
