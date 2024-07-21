@@ -1,4 +1,4 @@
-prefix=/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV1_ws/devel
+prefix=/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/devel
 
 Name: mav1
 Description: Description of mav1

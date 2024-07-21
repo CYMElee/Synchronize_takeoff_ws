@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/node/keyboard.cpp" "/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/keyboard_control/CMakeFiles/keyboard.dir/node/keyboard.cpp.o"
-  "/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/src/getch.cpp" "/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/keyboard_control/CMakeFiles/keyboard.dir/src/getch.cpp.o"
+  "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/node/keyboard.cpp" "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/keyboard_control/CMakeFiles/keyboard.dir/node/keyboard.cpp.o"
+  "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/src/getch.cpp" "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/keyboard_control/CMakeFiles/keyboard.dir/src/getch.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/include"
+  "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

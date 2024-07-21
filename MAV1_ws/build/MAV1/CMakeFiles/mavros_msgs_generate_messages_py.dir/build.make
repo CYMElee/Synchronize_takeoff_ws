@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV1_ws/src
+CMAKE_SOURCE_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV1_ws/build
+CMAKE_BINARY_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build
 
 # Utility rule file for mavros_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ MAV1/CMakeFiles/mavros_msgs_generate_messages_py.dir/build: mavros_msgs_generate
 .PHONY : MAV1/CMakeFiles/mavros_msgs_generate_messages_py.dir/build
 
 MAV1/CMakeFiles/mavros_msgs_generate_messages_py.dir/clean:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV1_ws/build/MAV1 && $(CMAKE_COMMAND) -P CMakeFiles/mavros_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1 && $(CMAKE_COMMAND) -P CMakeFiles/mavros_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : MAV1/CMakeFiles/mavros_msgs_generate_messages_py.dir/clean
 
 MAV1/CMakeFiles/mavros_msgs_generate_messages_py.dir/depend:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV1_ws/src /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV1_ws/src/MAV1 /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV1_ws/build /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV1_ws/build/MAV1 /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV1_ws/build/MAV1/CMakeFiles/mavros_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/src /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/src/MAV1 /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1 /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV1_ws/build/MAV1/CMakeFiles/mavros_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : MAV1/CMakeFiles/mavros_msgs_generate_messages_py.dir/depend
 

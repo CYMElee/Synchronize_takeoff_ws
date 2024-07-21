@@ -1,8 +1,8 @@
-# Install script for directory: /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control
+# Install script for directory: /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/keyboard_control/catkin_generated/installspace/keyboard_control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/keyboard_control/catkin_generated/installspace/keyboard_control.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/keyboard_control/cmake" TYPE FILE FILES
-    "/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/keyboard_control/catkin_generated/installspace/keyboard_controlConfig.cmake"
-    "/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/keyboard_control/catkin_generated/installspace/keyboard_controlConfig-version.cmake"
+    "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/keyboard_control/catkin_generated/installspace/keyboard_controlConfig.cmake"
+    "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/keyboard_control/catkin_generated/installspace/keyboard_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/keyboard_control" TYPE FILE FILES "/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/keyboard_control" TYPE FILE FILES "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/package.xml")
 endif()
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src
+CMAKE_SOURCE_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build
+CMAKE_BINARY_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/CMakeFiles /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/keyboard_control/CMakeFiles/progress.marks
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/CMakeFiles 0
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/CMakeFiles /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/keyboard_control/CMakeFiles/progress.marks
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/clean
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/preinstall
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/preinstall
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ roscpp_generate_messages_cpp: keyboard_control/CMakeFiles/roscpp_generate_messag
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ uuid_msgs_generate_messages_py: keyboard_control/CMakeFiles/uuid_msgs_generate_m
 
 # fast build rule for target.
 uuid_msgs_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/uuid_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/uuid_msgs_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/uuid_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/uuid_msgs_generate_messages_py.dir/build
 .PHONY : uuid_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ std_msgs_generate_messages_lisp: keyboard_control/CMakeFiles/std_msgs_generate_m
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ geographic_msgs_generate_messages_py: keyboard_control/CMakeFiles/geographic_msg
 
 # fast build rule for target.
 geographic_msgs_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geographic_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/geographic_msgs_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geographic_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/geographic_msgs_generate_messages_py.dir/build
 .PHONY : geographic_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ sensor_msgs_generate_messages_eus: keyboard_control/CMakeFiles/sensor_msgs_gener
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ sensor_msgs_generate_messages_lisp: keyboard_control/CMakeFiles/sensor_msgs_gene
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ geographic_msgs_generate_messages_nodejs: keyboard_control/CMakeFiles/geographic
 
 # fast build rule for target.
 geographic_msgs_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build
 .PHONY : geographic_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ sensor_msgs_generate_messages_cpp: keyboard_control/CMakeFiles/sensor_msgs_gener
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ geographic_msgs_generate_messages_eus: keyboard_control/CMakeFiles/geographic_ms
 
 # fast build rule for target.
 geographic_msgs_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build
 .PHONY : geographic_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ mavros_msgs_generate_messages_py: keyboard_control/CMakeFiles/mavros_msgs_genera
 
 # fast build rule for target.
 mavros_msgs_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/mavros_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/mavros_msgs_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/mavros_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/mavros_msgs_generate_messages_py.dir/build
 .PHONY : mavros_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ geometry_msgs_generate_messages_eus: keyboard_control/CMakeFiles/geometry_msgs_g
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ std_msgs_generate_messages_nodejs: keyboard_control/CMakeFiles/std_msgs_generate
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ geometry_msgs_generate_messages_py: keyboard_control/CMakeFiles/geometry_msgs_ge
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ uuid_msgs_generate_messages_lisp: keyboard_control/CMakeFiles/uuid_msgs_generate
 
 # fast build rule for target.
 uuid_msgs_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build
 .PHONY : uuid_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ geometry_msgs_generate_messages_nodejs: keyboard_control/CMakeFiles/geometry_msg
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ std_msgs_generate_messages_cpp: keyboard_control/CMakeFiles/std_msgs_generate_me
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ tf2_msgs_generate_messages_cpp: keyboard_control/CMakeFiles/tf2_msgs_generate_me
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ geometry_msgs_generate_messages_lisp: keyboard_control/CMakeFiles/geometry_msgs_
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ mavros_msgs_generate_messages_nodejs: keyboard_control/CMakeFiles/mavros_msgs_ge
 
 # fast build rule for target.
 mavros_msgs_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build
 .PHONY : mavros_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -464,12 +464,12 @@ std_msgs_generate_messages_py: keyboard_control/CMakeFiles/std_msgs_generate_mes
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/std_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/std_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -479,12 +479,12 @@ uuid_msgs_generate_messages_nodejs: keyboard_control/CMakeFiles/uuid_msgs_genera
 
 # fast build rule for target.
 uuid_msgs_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build
 .PHONY : uuid_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -494,12 +494,12 @@ sensor_msgs_generate_messages_nodejs: keyboard_control/CMakeFiles/sensor_msgs_ge
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -509,12 +509,12 @@ tf2_msgs_generate_messages_py: keyboard_control/CMakeFiles/tf2_msgs_generate_mes
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ mavros_msgs_generate_messages_cpp: keyboard_control/CMakeFiles/mavros_msgs_gener
 
 # fast build rule for target.
 mavros_msgs_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build
 .PHONY : mavros_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -539,12 +539,12 @@ actionlib_generate_messages_nodejs: keyboard_control/CMakeFiles/actionlib_genera
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/mavros_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -554,12 +554,12 @@ mavros_msgs_generate_messages_eus: keyboard_control/CMakeFiles/mavros_msgs_gener
 
 # fast build rule for target.
 mavros_msgs_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/mavros_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/mavros_msgs_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/mavros_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/mavros_msgs_generate_messages_eus.dir/build
 .PHONY : mavros_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -569,12 +569,12 @@ uuid_msgs_generate_messages_cpp: keyboard_control/CMakeFiles/uuid_msgs_generate_
 
 # fast build rule for target.
 uuid_msgs_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build
 .PHONY : uuid_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -584,12 +584,12 @@ uuid_msgs_generate_messages_eus: keyboard_control/CMakeFiles/uuid_msgs_generate_
 
 # fast build rule for target.
 uuid_msgs_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build
 .PHONY : uuid_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -599,12 +599,12 @@ roscpp_generate_messages_eus: keyboard_control/CMakeFiles/roscpp_generate_messag
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/roscpp_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/roscpp_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -614,12 +614,12 @@ sensor_msgs_generate_messages_py: keyboard_control/CMakeFiles/sensor_msgs_genera
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -629,12 +629,12 @@ tf2_msgs_generate_messages_eus: keyboard_control/CMakeFiles/tf2_msgs_generate_me
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -644,12 +644,12 @@ roscpp_generate_messages_lisp: keyboard_control/CMakeFiles/roscpp_generate_messa
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -659,12 +659,12 @@ actionlib_generate_messages_lisp: keyboard_control/CMakeFiles/actionlib_generate
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -674,12 +674,12 @@ roscpp_generate_messages_nodejs: keyboard_control/CMakeFiles/roscpp_generate_mes
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -689,12 +689,12 @@ geometry_msgs_generate_messages_cpp: keyboard_control/CMakeFiles/geometry_msgs_g
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/keyboard.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/keyboard.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/keyboard.dir/rule
 .PHONY : keyboard_control/CMakeFiles/keyboard.dir/rule
 
 # Convenience name for target.
@@ -704,12 +704,12 @@ keyboard: keyboard_control/CMakeFiles/keyboard.dir/rule
 
 # fast build rule for target.
 keyboard/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/build
 .PHONY : keyboard/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -719,12 +719,12 @@ roscpp_generate_messages_py: keyboard_control/CMakeFiles/roscpp_generate_message
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/roscpp_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/roscpp_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -734,12 +734,12 @@ geographic_msgs_generate_messages_lisp: keyboard_control/CMakeFiles/geographic_m
 
 # fast build rule for target.
 geographic_msgs_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build
 .PHONY : geographic_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -749,12 +749,12 @@ rosgraph_msgs_generate_messages_eus: keyboard_control/CMakeFiles/rosgraph_msgs_g
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -764,12 +764,12 @@ rosgraph_msgs_generate_messages_lisp: keyboard_control/CMakeFiles/rosgraph_msgs_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -779,12 +779,12 @@ actionlib_msgs_generate_messages_eus: keyboard_control/CMakeFiles/actionlib_msgs
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -794,12 +794,12 @@ geographic_msgs_generate_messages_cpp: keyboard_control/CMakeFiles/geographic_ms
 
 # fast build rule for target.
 geographic_msgs_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build
 .PHONY : geographic_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -809,12 +809,12 @@ rosgraph_msgs_generate_messages_nodejs: keyboard_control/CMakeFiles/rosgraph_msg
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -824,12 +824,12 @@ mavros_msgs_generate_messages_lisp: keyboard_control/CMakeFiles/mavros_msgs_gene
 
 # fast build rule for target.
 mavros_msgs_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build
 .PHONY : mavros_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -839,12 +839,12 @@ actionlib_msgs_generate_messages_py: keyboard_control/CMakeFiles/actionlib_msgs_
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -854,12 +854,12 @@ actionlib_generate_messages_cpp: keyboard_control/CMakeFiles/actionlib_generate_
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -869,12 +869,12 @@ rosgraph_msgs_generate_messages_py: keyboard_control/CMakeFiles/rosgraph_msgs_ge
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -884,12 +884,12 @@ tf2_msgs_generate_messages_lisp: keyboard_control/CMakeFiles/tf2_msgs_generate_m
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -899,12 +899,12 @@ tf2_msgs_generate_messages_nodejs: keyboard_control/CMakeFiles/tf2_msgs_generate
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -914,12 +914,12 @@ actionlib_msgs_generate_messages_cpp: keyboard_control/CMakeFiles/actionlib_msgs
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -929,12 +929,12 @@ rosgraph_msgs_generate_messages_cpp: keyboard_control/CMakeFiles/rosgraph_msgs_g
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make keyboard_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -944,12 +944,12 @@ actionlib_generate_messages_eus: keyboard_control/CMakeFiles/actionlib_generate_
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/actionlib_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : keyboard_control/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -959,12 +959,12 @@ std_msgs_generate_messages_eus: keyboard_control/CMakeFiles/std_msgs_generate_me
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make keyboard_control/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -974,12 +974,12 @@ actionlib_msgs_generate_messages_lisp: keyboard_control/CMakeFiles/actionlib_msg
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 .PHONY : keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -989,12 +989,12 @@ actionlib_msgs_generate_messages_nodejs: keyboard_control/CMakeFiles/actionlib_m
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make keyboard_control/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 keyboard_control/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_generate_messages_py.dir/rule
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard_control/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : keyboard_control/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1004,7 +1004,7 @@ actionlib_generate_messages_py: keyboard_control/CMakeFiles/actionlib_generate_m
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/actionlib_generate_messages_py.dir/build
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/actionlib_generate_messages_py.dir/build.make keyboard_control/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 node/keyboard.o: node/keyboard.cpp.o
@@ -1013,7 +1013,7 @@ node/keyboard.o: node/keyboard.cpp.o
 
 # target to build an object file
 node/keyboard.cpp.o:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/node/keyboard.cpp.o
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/node/keyboard.cpp.o
 .PHONY : node/keyboard.cpp.o
 
 node/keyboard.i: node/keyboard.cpp.i
@@ -1022,7 +1022,7 @@ node/keyboard.i: node/keyboard.cpp.i
 
 # target to preprocess a source file
 node/keyboard.cpp.i:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/node/keyboard.cpp.i
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/node/keyboard.cpp.i
 .PHONY : node/keyboard.cpp.i
 
 node/keyboard.s: node/keyboard.cpp.s
@@ -1031,7 +1031,7 @@ node/keyboard.s: node/keyboard.cpp.s
 
 # target to generate assembly for a file
 node/keyboard.cpp.s:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/node/keyboard.cpp.s
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/node/keyboard.cpp.s
 .PHONY : node/keyboard.cpp.s
 
 src/getch.o: src/getch.cpp.o
@@ -1040,7 +1040,7 @@ src/getch.o: src/getch.cpp.o
 
 # target to build an object file
 src/getch.cpp.o:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/src/getch.cpp.o
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/src/getch.cpp.o
 .PHONY : src/getch.cpp.o
 
 src/getch.i: src/getch.cpp.i
@@ -1049,7 +1049,7 @@ src/getch.i: src/getch.cpp.i
 
 # target to preprocess a source file
 src/getch.cpp.i:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/src/getch.cpp.i
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/src/getch.cpp.i
 .PHONY : src/getch.cpp.i
 
 src/getch.s: src/getch.cpp.s
@@ -1058,7 +1058,7 @@ src/getch.s: src/getch.cpp.s
 
 # target to generate assembly for a file
 src/getch.cpp.s:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/src/getch.cpp.s
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(MAKE) -f keyboard_control/CMakeFiles/keyboard.dir/build.make keyboard_control/CMakeFiles/keyboard.dir/src/getch.cpp.s
 .PHONY : src/getch.cpp.s
 
 # Help Target
@@ -1147,6 +1147,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

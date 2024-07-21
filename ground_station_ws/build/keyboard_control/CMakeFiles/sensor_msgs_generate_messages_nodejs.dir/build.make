@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src
+CMAKE_SOURCE_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build
+CMAKE_BINARY_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build
 
 # Utility rule file for sensor_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build: sens
 .PHONY : keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 
 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/keyboard_control && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/keyboard_control && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/keyboard_control /home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/build/keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/keyboard_control /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/build/keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : keyboard_control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 

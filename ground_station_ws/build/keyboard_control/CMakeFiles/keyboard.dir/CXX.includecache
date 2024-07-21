@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/include/getch.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/include/getch.h
 cstdio
 -
 unistd.h
@@ -16,23 +16,27 @@ termios.h
 fcntl.h
 -
 
-/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/node/keyboard.cpp
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/node/keyboard.cpp
 ros/ros.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/node/ros/ros.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/node/ros/ros.h
 std_msgs/Int16.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/node/std_msgs/Int16.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/node/std_msgs/Int16.h
 getch.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/node/getch.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/node/getch.h
 mavros_msgs/CommandBool.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/node/mavros_msgs/CommandBool.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/node/mavros_msgs/CommandBool.h
 mavros_msgs/CommandTOL.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/node/mavros_msgs/CommandTOL.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/node/mavros_msgs/CommandTOL.h
 mavros_msgs/SetMode.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/node/mavros_msgs/SetMode.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/node/mavros_msgs/SetMode.h
 mavros_msgs/State.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/node/mavros_msgs/State.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/node/mavros_msgs/State.h
 mavros_msgs/Mavlink.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/ground_station_ws/src/keyboard_control/node/mavros_msgs/Mavlink.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/node/mavros_msgs/Mavlink.h
+
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/src/getch.cpp
+getch.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/ground_station_ws/src/keyboard_control/src/getch.h
 
 /opt/ros/noetic/include/mavros_msgs/CommandBool.h
 ros/service_traits.h
