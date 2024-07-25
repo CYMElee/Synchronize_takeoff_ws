@@ -71,7 +71,6 @@
         "cfenv": "cpp",
         "cinttypes": "cpp",
         "typeindex": "cpp",
-        "typeinfo": "cpp",
-        "*.ipp": "cpp"
+        "typeinfo": "cpp"
     }
 }

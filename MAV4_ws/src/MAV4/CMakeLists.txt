@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(mav4)
+project(mav1)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -121,7 +121,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-  include
+  #include
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -138,8 +138,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(main node/main.cpp
-src/takeoff.cpp    )
+add_executable(main node/main.cpp)
 add_executable(topic_tool src/topic_tool.cpp)
 
 

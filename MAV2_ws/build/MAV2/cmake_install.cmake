@@ -1,8 +1,8 @@
-# Install script for directory: /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/src/MAV2
+# Install script for directory: /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/src/MAV2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/build/MAV2/catkin_generated/installspace/mav2.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/build/MAV2/catkin_generated/installspace/mav1.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav2/cmake" TYPE FILE FILES
-    "/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/build/MAV2/catkin_generated/installspace/mav2Config.cmake"
-    "/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/build/MAV2/catkin_generated/installspace/mav2Config-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav1/cmake" TYPE FILE FILES
+    "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/build/MAV2/catkin_generated/installspace/mav1Config.cmake"
+    "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/build/MAV2/catkin_generated/installspace/mav1Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav2" TYPE FILE FILES "/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/src/MAV2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav1" TYPE FILE FILES "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/src/MAV2/package.xml")
 endif()
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/src/topic_tool.cpp" "/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/build/MAV4/CMakeFiles/topic_tool.dir/src/topic_tool.cpp.o"
+  "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV4_ws/src/MAV4/src/topic_tool.cpp" "/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV4_ws/build/MAV4/CMakeFiles/topic_tool.dir/src/topic_tool.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,12 +12,11 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
-  "ROS_PACKAGE_NAME=\"mav4\""
+  "ROS_PACKAGE_NAME=\"mav1\""
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

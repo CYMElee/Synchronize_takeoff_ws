@@ -6,31 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/include/takeoff.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV4_ws/src/MAV4/node/main.cpp
 ros/ros.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/include/ros/ros.h
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV4_ws/src/MAV4/node/ros/ros.h
 string
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/include/string
-geometry_msgs/PoseStamped.h
 -
-mavros_msgs/CommandBool.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/include/mavros_msgs/CommandBool.h
-mavros_msgs/CommandTOL.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/include/mavros_msgs/CommandTOL.h
-mavros_msgs/SetMode.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/include/mavros_msgs/SetMode.h
-mavros_msgs/State.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/include/mavros_msgs/State.h
-mavros_msgs/Mavlink.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/include/mavros_msgs/Mavlink.h
 std_msgs/Int16.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/include/std_msgs/Int16.h
-
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/node/main.cpp
-ros/ros.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/node/ros/ros.h
-string
--
+/home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV4_ws/src/MAV4/node/std_msgs/Int16.h
 geometry_msgs/PoseStamped.h
 -
 mavros_msgs/CommandBool.h
@@ -43,12 +25,6 @@ mavros_msgs/State.h
 -
 mavros_msgs/Mavlink.h
 -
-takeoff.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/node/takeoff.h
-
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/src/takeoff.cpp
-takeoff.h
-/home/lee/workspace/ros_ws/Synchronize_takeoff/MAV4_ws/src/MAV4/src/takeoff.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

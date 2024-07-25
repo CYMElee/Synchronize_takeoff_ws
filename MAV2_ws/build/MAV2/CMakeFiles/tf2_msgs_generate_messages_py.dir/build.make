@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/src
+CMAKE_SOURCE_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/build
+CMAKE_BINARY_DIR = /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/build
 
 # Utility rule file for tf2_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ MAV2/CMakeFiles/tf2_msgs_generate_messages_py.dir/build: tf2_msgs_generate_messa
 .PHONY : MAV2/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 
 MAV2/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/build/MAV2 && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/build/MAV2 && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : MAV2/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 
 MAV2/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend:
-	cd /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/src /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/src/MAV2 /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/build /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/build/MAV2 /home/lee/workspace/ros_ws/Synchronize_takeoff/MAV2_ws/build/MAV2/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/src /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/src/MAV2 /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/build /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/build/MAV2 /home/lee/workspace/ros_ws/Synchronize_takeoff_ws/MAV2_ws/build/MAV2/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : MAV2/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 
